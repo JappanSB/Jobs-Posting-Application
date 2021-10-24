@@ -1,0 +1,22 @@
+.PageNavigationControls {
+    margin-top:50px;
+    padding: 10px;
+    margin-bottom: 80px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PageNavigationControls span:nth-child(odd) {
+    color: #303f60;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+@media (max-width:1024px) {
+    .PageNavigationControls {
+        margin-top: 50px;
+    }
+}
